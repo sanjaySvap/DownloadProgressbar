@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        isUpdate(false,"")
+        isUpdate(false,"https://www.play4xi.com/play4xi.apk")
     }
 
     private fun isUpdate(isForceUpdate: Boolean, url: String) {
